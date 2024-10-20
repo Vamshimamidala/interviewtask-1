@@ -1,0 +1,45 @@
+.header {
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #E0E0E0;
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #3963CD;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #697FFE;
+}
+
+nav ul li a:focus {
+    outline: none;
+    border-bottom: 2px solid #3963CD;
+    padding-bottom: 2px;
+}
